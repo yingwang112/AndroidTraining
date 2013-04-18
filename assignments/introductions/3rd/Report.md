@@ -1,11 +1,78 @@
 Assignment Report for 1.3
-------
 
-ä»¥ä¸‹ã«ã€èª²é¡Œã®å›žç­”ã‚’è¨˜å…¥ã—ã¦ãã ã•ã„ã€‚
+3.(‰Û‘è)ì¬‚µ‚½ apk ƒtƒ@ƒCƒ‹‚Ì’†‚É‚ ‚éƒtƒ@ƒCƒ‹EƒfƒBƒŒƒNƒgƒŠ‚ð—ñ‹“‚µ‚Ä‚­‚¾‚³‚¢B
+90201687n:AndroidTraining ying.wang$ unzip homework01.apk 
+Archive:  homework01.apk
+  inflating: res/layout/activity_main.xml  
+  inflating: res/menu/main.xml       
+  inflating: AndroidManifest.xml     
+ extracting: resources.arsc          
+ extracting: res/drawable-hdpi/ic_launcher.png  
+ extracting: res/drawable-mdpi/ic_launcher.png  
+ extracting: res/drawable-xhdpi/ic_launcher.png  
+ extracting: res/drawable-xxhdpi/ic_launcher.png  
+  inflating: classes.dex             
+  inflating: META-INF/MANIFEST.MF    
+  inflating: META-INF/CERT.SF        
+  inflating: META-INF/CERT.DSA
 
-ç½²åæ¸ˆã¿ã‚¢ãƒ—ãƒªã®ä½œæˆ
-======
+4.(‰Û‘è)ã‹L‚Å—ñ‹“‚µ‚½ƒtƒ@ƒCƒ‹EƒfƒBƒŒƒNƒgƒŠ‚É‚Â‚¢‚ÄA‚Ç‚Ì‚æ‚¤‚È–ðŠ„‚ðŽ‚Á‚Ä‚¢‚é‚©à–¾‚µ‚Ä‚­‚¾‚³‚¢B
 
-3. ä½œæˆã—ãŸ apk ãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸­ã«ã‚ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’åˆ—æŒ™ã—ã¦ãã ã•ã„ã€‚
+/layout/activity_main.xml
+==> [UIƒfƒUƒCƒ“]•R‚Ã‚¢‚Ä‚¢‚é‚à‚Ì‚ÍMainActivityƒNƒ‰ƒX‚Æ‰æ–ÊƒŒƒCƒAƒEƒgƒtƒ@ƒCƒ‹‚Å‚·B
+     activity_main.xml‚ð•ÏX‚·‚é‚ÆƒAƒvƒŠƒP[ƒVƒ‡ƒ“‰æ–Ê‚É”½‰f‚µ‚½‚Ì‚Å‚·B
+@   ‰æ–Ê‚É•\Ž¦‚Å‚«‚é•”•i‚Í‚½‚­‚³‚ñ‚ÌŽí—Þ‚ª‚ ‚è‚Ü‚·Biƒ{ƒ^ƒ“j@
 
-4. ä¸Šè¨˜ã§åˆ—æŒ™ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ã¤ã„ã¦ã€ã©ã®ã‚ˆã†ãªå½¹å‰²ã‚’æŒã£ã¦ã„ã‚‹ã‹èª¬æ˜Žã—ã¦ãã ã•ã„ã€‚
+res/menu/main.xml
+==> ƒƒjƒ…[‚ÌÝ’è
+
+AndroidManifest.xml
+==> ƒ}ƒjƒtƒFƒXƒgƒtƒ@ƒCƒ‹‚Å‚·BActivity‚ð‚Í‚¶‚ß‚³‚Ü‚´‚Ü‚Èî•ñ‚ª‚±‚Ìƒtƒ@ƒCƒ‹‚É‚Ü‚Æ‚ß‚ç‚ê‚Ä‚¢‚Ü‚·B
+
+resources.arsc          
+==> ƒŠƒ\[ƒXƒtƒ@ƒCƒ‹@ 
+
+drawable(‰æ–Êƒtƒ@ƒCƒ‹u.png,.jpg,.gifv‚âŒ`ó‚È‚Ç‚ð’è‹`‚µ‚½XMLƒtƒ@ƒCƒ‹ )  
+res/drawable-hdpi/ic_launcher.png 
+==> ‚‰ð‘œ“xˆµ‚¢‚Ì‰æ‘œ‚ðŠi”[( 240dpi, 72px)   
+ 
+res/drawable-mdpi/ic_launcher.png
+==> ’†‰ð‘œ“xˆµ‚¢‚Ì‰æ‘œ‚ðŠi”[( 160dpi, 48px) 
+
+res/drawable-xhdpi/ic_launcher.png ( 320dpi,96px)  
+==> ’´‚‚¢‰ð‘œ“xˆµ‚¢‚Ì‰æ‘œ‚ðŠi”[ 
+
+res/drawable-xxhdpi/ic_launcher.png( 480dpi,148px)   
+==> ˆê”Ô‚‚¢‰ð‘œ“xˆµ‚¢‚Ì‰æ‘œ‚ðŠi”[
+
+classes.dex
+==> Dalvik VM‚ÌƒoƒCƒgƒR[ƒh‚Å‚·BƒoƒCƒiƒŠƒtƒ@ƒCƒ‹‚È‚Ì‚ÅA‚»‚Ì‚Ü‚Ü‚Å‚Í’†g‚ð“Ç‚Þ‚±‚Æ‚ª‚Å‚«‚È‚¢‚Å‚·B
+@@‚»‚±‚ÅAbaksmali‚Æ‚¢‚¤ƒc[ƒ‹‚ðŽg‚¢‚Ü‚·Bç½²åæ¸ˆã¿ã‚¢ãƒ—ãƒªã®ä½œæˆ
+
+META-INF(–¼ŠÖŒWƒtƒ@ƒCƒ‹)
+   * META-INF/MANIFEST.MF  ==>  ’è‹`
+   * META-INF/CERT.SF      ==>  ( .sf = signature file )apkƒtƒ@ƒCƒ‹’†‚Å‘S•”‚Ìƒtƒ@ƒCƒ‹‚ÆHash Value‚ð•\Ž¦‚·‚é 
+   * META-INF/CERT.DSA     ==>  ŒŸØ‘¤‚ÅDSAƒTƒ|[ƒg‚·‚é‚æ‚¤‚Å‚·B@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
