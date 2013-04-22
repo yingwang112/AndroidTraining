@@ -38,33 +38,26 @@ llvm-rs-cc
 
 2. (実習)上記のディレクトリにパスを通し、下記のコマンドを実行してください。
 * adb devices
-90201687n:sdk ying.wang$ ./platform-tools/adb devices
+90201687n:‾ ying.wang$ adb devices
 List of devices attached 
-emulator-5554	device
+015d4906073ffc19	device
 
 * adb shell
-90201687n:‾ ying.wang$ ./Downloads/adt-bundle-mac-x86_64-20130219/sdk/platform-tools/adb shell
-root@android:/ #
-root@android:/ # su shell
-root@android:/ $ 
+90201687n:‾ ying.wang$ adb shell
+shell@android:/ $ 
 
 3. (実習)adb shellコマンドを使って、Android 内のファイルシステムにアクセスし、下記の項目を確認してください。
-
-root@android:/ $ cd /data/data/
-root@android:/data/data $ ls
+90201687n:‾ ying.wang$ adb shell
+shell@android:/ $ cd  /data/data/
+shell@android:/data/data $ ls
 opendir failed, Permission denied
+255|shell@android:/data/data $ 
 
-*I don't know why*
-root@android:/ $ cd sdcard/                                                    
-sh: cd: /sdcard: Permission denied
-
-root@android:/ $ su 
-root@android:/ # cd sdcard/
-root@android:/sdcard # ls
-root@android:/sdcard # 
-
-
-
+shell@android:/ $ cd sdcard/Android/data/com.                                  
+com.android.providers.media/            com.google.android.gallery3d/     
+com.google.android.apps.currents/       com.google.android.music/         
+com.google.android.apps.magazines/      com.google.android.videos/        
+com.google.android.apps.maps/           com.google.android.youtube/  
 
 
 
